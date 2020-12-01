@@ -1,0 +1,24 @@
+<html>
+
+   <body>      
+      <form action = "http://127.0.0.1:8800/api/posts" method = "GET">
+         Tag:    <input type = "text" name = "tags">  <br>
+         sortBy: <select id="sortBy" name="sortBy">
+					  <option value=""></option>
+					  <option value="id">id</option>
+					  <option value="reads">reads</option>
+					  <option value="likes">likes</option>
+					  <option value="popularity">popularity</option><br>
+					</select>
+		 direction: <select id="direction" name="direction">
+		              
+					  <option value=""></option>
+					  <option value="asc">Ascending</option>
+					  <option value="desc">Descending</option>
+					</select>
+		 
+		 
+         <input type = "submit" value = "Submit">
+      </form>      
+   </body>
+</html>
